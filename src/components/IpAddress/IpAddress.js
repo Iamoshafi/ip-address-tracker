@@ -48,7 +48,7 @@ const IpAddress = () => {
   }
 
   useEffect(() => {
-    // fetchLocation();
+    fetchLocation();
   }, []);
 
   return (
