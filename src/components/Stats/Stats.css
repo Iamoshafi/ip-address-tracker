@@ -57,14 +57,14 @@
 @media screen and (max-width: 600px) {
     .details{
         position: absolute;
-        top: 169px;
+        top: 174px;
     }
 }
 
 @media screen and (max-width: 390px) {
     .details{
         position: absolute;
-        top: 229px;
+        top: 234px;
     }
 }
 
