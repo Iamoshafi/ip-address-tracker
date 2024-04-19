@@ -1,0 +1,52 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    border-radius: 18px;
+    padding: 1px;
+    position: relative;
+    width: 28rem;
+}
+
+.input{
+    margin: 0;
+    padding: 17px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border: none;
+    flex-grow: 2;
+    border-radius: 12px;
+    font-size: .8em;
+}
+
+.search:focus{
+    outline: none;
+}
+
+
+button{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 2;
+    top: 1px;
+    height: 34px;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    width: 9%;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+  background-color: grey;
+}
+
+@media screen and (max-width: 768px) {
+    .form{
+        width: 20rem;
+    }
+    .input{
+        width: 100%;
+    }
+}

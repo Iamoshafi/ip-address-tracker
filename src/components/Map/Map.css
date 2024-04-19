@@ -1,0 +1,27 @@
+.map{
+  height: 100%;
+  z-index: 1;
+}
+
+.leaflet-container{
+  height: 24.5rem;
+  z-index: 1;
+}
+
+.leaflet-popup-content{
+  height: 200rem;
+}
+
+.pop{
+  size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .map{
+    min-height: 100%;
+  }
+  .leaflet-container{
+  height: 32rem;
+  z-index: 1;
+}
+}

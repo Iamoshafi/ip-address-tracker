@@ -1,0 +1,70 @@
+.stats-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    z-index: 3;
+    gap: 3.5rem;
+    width: 48rem;
+    height: 6.5rem;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ip-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    color: black;
+}
+
+.ip-info p {
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+        position: absolute;
+        top:250px;
+        width: 18rem;
+        height: 16rem;
+    }
+    .ip-info p {
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .details{
+        position: absolute;
+        top: 160px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .details{
+        position: absolute;
+        top: 220px;
+    }
+}
+
