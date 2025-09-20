@@ -15,11 +15,11 @@ const IpAddress = () => {
   const [errExists, setErrExists] = useState(false);
 
   async function fetchLocation(ipAddress = "") {
-    setIsLoading(true);
+    setIsLoading(true); 
     setErrExists(false);
     const resp = await axios
       .get(
-        `https://geo.ipify.org/api/v2/country,city?apiKey=at_u9fr4cYoEKVRx6dDi8tzPMEEhUJTC&ipAddress=${ipAddress}`
+        `https://geo.ipify.org/api/v2/country,city?apiKey=at_5GPuBcLBDjHwiXaGZKTQXQzMGm3Iq&ipAddress=${ipAddress}`
       )
       .catch((err) => {
         alert(err.message);
